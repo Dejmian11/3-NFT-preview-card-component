@@ -15,13 +15,13 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Dejmian11/3-NFT-preview-card-component/blob/master/images/design/Screenshot%20-%20Frontend%20Mentor%20NFT%20preview%20card%20component.png)
 
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-GQhJLwO9Nw)
+- Live Site URL: [Live](https://bright-toffee-a78af5.netlify.app/)
 
 ## My process
 
@@ -36,4 +36,4 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Dejmian11](https://www.frontendmentor.io/profile/Dejmian11)
