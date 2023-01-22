@@ -1,0 +1,26 @@
+@use 'base.scss' as *;
+
+body {
+  display: grid;
+  place-content: center;
+  background-color: var(--clr-neutral-300);
+  color: var(--clr-primary-400);
+  font-family: var(--ff-priamry);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-light);
+}
+
+.wrapper {
+	margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: var(--content-spacing, 1rem);
+}
+
+.flex-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images/favicon/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | NFT preview card component</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<article class="nft-card grid">
+				<div class="nft-card__img-container">
+					<img
+						src="./images/image-equilibrium.jpg"
+						alt="Equilibrium image"
+						class="nft-card__img"
+					/>
+					<div class="nft-card__img-icon">
+						<img src="./images/icons/icon-view.svg" alt="" />
+					</div>
+				</div>
+
+				<div class="nft-card__content grid">
+					<h3 class="heading-tertiary">
+						<a href="#" class="nft-card__link">Equilibrium #3429</a>
+					</h3>
+					<p class="nft-card__description">
+						Our Equilibrium collection promotes balance and calm.
+					</p>
+
+					<div class="flex-group">
+						<div class="nft-card-price flex-group">
+							<img src="./images/icons/icon-ethereum.svg" alt="Ethereum icon" />
+							<p class="clr-primary-600 fw-regular">0.041 ETH</p>
+						</div>
+
+						<div class="nft-card-days flex-group">
+							<img
+								src="./images/icons/icon-clock.svg"
+								alt="Clock icon"
+								class="nft-card-days__icon"
+							/>
+							<p class="nft-card-days__text">3 days left</p>
+						</div>
+					</div>
+
+					<div class="nft-card-author">
+						<img
+							src="./images/image-avatar.png"
+							alt="Jules Wyvern photo"
+							class="nft-card-author__img"
+						/>
+						<p class="nft-card-author__text">
+							Creation of <a href="#" class="nft-card__link">Jules Wyvern</a>
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
