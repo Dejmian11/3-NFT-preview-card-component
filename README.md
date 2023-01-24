@@ -20,7 +20,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-GQhJLwO9Nw)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-GQhJLwO9Nw)
 - Live Site URL: [Live](https://bright-toffee-a78af5.netlify.app/)
 
 ## My process
