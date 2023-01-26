@@ -5,78 +5,79 @@
 	--content-spacing: 1.25rem;
 	--border-radius: 1rem;
 
-  max-width: 360px;
+	max-width: 360px;
+	margin: 5rem auto;
 	padding: var(--content-padding);
 	border-radius: var(--border-radius);
 	background-color: var(--clr-neutral-400);
-  box-shadow: 0 1rem 4rem 1rem hsl(217, 54%, 9%);
+	box-shadow: 0 1rem 4rem 1rem hsl(217, 54%, 9%);
 
-  &__img-container {
-    position: relative;
-    border-radius: calc(var(--border-radius) / 2);
-    overflow: hidden;
-    cursor: pointer;
+	&__img-container {
+		position: relative;
+		border-radius: calc(var(--border-radius) / 2);
+		overflow: hidden;
+		cursor: pointer;
 
-    &:hover .nft-card__img-icon {
-      opacity: 1;
-    }
-  }
+		&:hover .nft-card__img-icon {
+			opacity: 1;
+		}
+	}
 
-  &__img-icon {
-    position: absolute;
-    background-color: hsla(var(--clr-primary-600-hsl), .5);
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all .2s;
-    
-    & img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
+	&__img-icon {
+		position: absolute;
+		background-color: hsla(var(--clr-primary-600-hsl), 0.5);
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		transition: all 0.2s;
+
+		& img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
 
 	&__content {
 		--content-spacing: 1rem;
 	}
 
-  &__link {
-    color: var(--clr-neutral-900);
-    text-decoration: none;
-    transition: all .2s;
+	&__link {
+		color: var(--clr-neutral-900);
+		text-decoration: none;
+		transition: all 0.2s;
 
-    &:is(:hover, :focus) {
-      color: var(--clr-priamry-600);
-    }
-  }
+		&:is(:hover, :focus) {
+			color: var(--clr-priamry-600);
+		}
+	}
 
 	&-price,
 	&-days {
 		gap: 0.3rem;
 	}
 
-  &-price__text {
-    color: var(--clr-priamry-600);
-    font-weight: var(--fw-regular);
-  }
+	&-price__text {
+		color: var(--clr-priamry-600);
+		font-weight: var(--fw-regular);
+	}
 
-  &-author {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: center;
-    gap: 1rem;
-    padding-block: 1rem .25rem;
-    border-top: 1px solid var(--clr-neutral-500);
+	&-author {
+		display: grid;
+		grid-auto-flow: column;
+		justify-content: start;
+		align-items: center;
+		gap: 1rem;
+		padding-block: 1rem 0.25rem;
+		border-top: 1px solid var(--clr-neutral-500);
 
-    &__img {
-      height: 2.25rem;
-      width: 2.25rem;
-      border: 1px solid var(--clr-neutral-900);
-      border-radius: 100vmax;
-    }
-  }
+		&__img {
+			height: 2.25rem;
+			width: 2.25rem;
+			border: 1px solid var(--clr-neutral-900);
+			border-radius: 100vmax;
+		}
+	}
 }

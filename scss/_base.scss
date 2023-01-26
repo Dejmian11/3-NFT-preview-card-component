@@ -105,6 +105,31 @@ h6 {
 	}
 }
 
+// MEDIA QUERIES
+@mixin respond($breakpoint) {
+	@if $breakpoint == lg {
+		@media only screen and (min-width: 62em) {
+			//  992px
+			@content;
+		}
+	}
+}
+
+// GENERAL STYLE
+body {
+	display: grid;
+
+	background-color: var(--clr-neutral-300);
+	color: var(--clr-primary-400);
+	font-family: var(--ff-priamry);
+	font-size: var(--fs-400);
+	font-weight: var(--fw-light);
+
+	@include respond(lg) {
+		place-content: center;
+	}
+}
+
 // UTILITY CLASSES
 .clr-primary-600 {
 	color: var(--clr-priamry-600);
