@@ -15,7 +15,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![]()
+![](https://github.com/Dejmian11/3-NFT-preview-card-component/blob/master/images/design/Screenshot%20-%20Frontend%20Mentor%20NFT%20preview%20card%20component.png)
 
 ### Links
 
